@@ -1,3 +1,10 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +43,94 @@
     transform: rotate(360deg);
   }
 }
+
+/* NavBar */
+
+.my-style {
+  border-bottom: 7px solid #ff9234;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./shared/Img/miche-mix-ZeldXtOOOWg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  position: relative;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.nav-link {
+  font-family: 'Shadows Into Light';
+  font-size: 1.55em;
+  color: black;
+  padding: 0;
+  width: 75px;  
+}
+
+.navbar li a:hover {
+  color: black;
+  margin: 0;
+  border-bottom: #ff9234 solid 2px;
+  transition: ease-in-out;
+}
+
+.my-font:hover {
+  color:#d92027;
+  cursor: pointer;
+}
+
+.my-font {
+  font-family: 'Shadows Into Light';
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+
+}
+
+/* Jumbortron */
+
+
+.hero-body {
+  color: white;
+  margin-left: 50px;
+  align-self: center;
+
+}
+
+.hero-body p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.hero-body button {
+  color: white;
+  font-weight: 500;
+  display: block;
+  justify-self: left;
+  padding: 10px 30px;
+  background-color: #d92027;
+}
+
+.hero-body button:hover {
+  color: white;
+  background-color: #ff9234;
+  transition: ease-in 0.2s;
+  
+}
+
+
+
+
+footer {
+  background-image: linear-gradient( #35d0ba, #fff);
+  padding: 20px 0 0;
+  margin-bottom: 0;
+}
+
+.links a{
+  color: #000000;
+}
+
+
