@@ -1,29 +1,33 @@
-import React from 'react';
-import { Card, CardImg, CardTitle } from 'reactstrap';
+// import React from 'react';
+// import { Card, CardImg, CardTitle, CardText, CardBody } from 'reactstrap';
 
-export default function RenderCards({ cards }) {
-    return (
-        <Card>
-            <CardBody>
-                <CardTitle>{cards.title}</CardTitle>
-                <CardImg>{cards.img}</CardImg>
-                <CardText>{cards.text}</CardText>
-            </CardBody>
-        </Card>
+// export default function RenderCards({ card }) {
+//     return (
+//         <div>
+//             <Card>
+//                 <CardBody>
+//                     <CardTitle>test</CardTitle>
+//                     <CardImg src={card.img} />
+//                     <CardText>{card.text}</CardText>
+//                     <span>{card.price}</span>
+//                 </CardBody>
+//             </Card>
+//         </div>
 
-    );
-}
+//     );
+// }
 
-function CardInfo(props) {
-    return (
-        <div className="container">
-            {
-                props.card ?
-                <div className="row">
-                    <RenderCards cards={props.card} />
-                </div>
-            }
-        </div>
+// export function CardInfo(props) {
+//     return (
+//         <div className="container">
+//             <div>
+//                 {
+//                     <div className="row">
+//                         <RenderCards card={props.card} />
+//                     </div>
+//                 }
+//             </div>
+//         </div>
 
-    );
-}
+//     );
+// }

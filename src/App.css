@@ -1,8 +1,10 @@
 
+
+
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .App {
@@ -51,7 +53,7 @@
 }
 
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./shared/Img/miche-mix-ZeldXtOOOWg-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/miche-mix-ZeldXtOOOWg-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
@@ -119,6 +121,49 @@
   transition: ease-in 0.2s;
   
 }
+
+
+/* Cards ------------------------------------- */
+
+.card-title {
+  background-color: #d92027;
+  padding: 10px;
+}
+
+.card-title h3 {
+  color: white;
+}
+
+.card-text {
+  background-color: rgb(218, 218, 218);
+  padding: 8px 10px 0 10px;
+
+
+}
+
+.card-img {
+  align-self: center;
+}
+
+.card {
+  height: 100%;
+  overflow: visible;
+  box-shadow: -10px 10px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card p {
+  font-size: 1.1em;
+}
+
+.card span {
+  position: relative;
+  top: -10px;
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+
+}
+
 
 
 

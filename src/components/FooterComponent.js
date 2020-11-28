@@ -13,7 +13,7 @@ function Footer(props) {
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-6 col-sm-5 text-center">
+                    <div class="col-6  text-center">
                         <h5>Social</h5>
                         <a href="http://instagram.com" class="btn btn-social-icon btn-instagram"><i
                             class="fa fa-instagram"></i></a>{' '}
@@ -24,7 +24,7 @@ function Footer(props) {
                         <a href="http://youtube.com" class="btn btn-social-icon btn-google"><i
                             class="fa fa-youtube"></i></a> 
                     </div>
-                    <div class="col-sm-4 text-center links">
+                    <div class="col-sm-2 text-center links">
                         <a href="tel:+2815555555" class="btn btn-link" role="button"><i class="fa fa-phone"></i>
                             281-555-5555</a><br></br>
                             <a href="mailto:info@michevida.com" class="btn btn-link" role="button"><i
