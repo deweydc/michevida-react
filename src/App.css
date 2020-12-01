@@ -46,6 +46,17 @@
   }
 }
 
+.section {
+  width: 100%;
+  margin: 0;
+  background-color: white;
+  z-index: 20;
+  margin-top: -32px;
+}
+
+
+
+
 /* NavBar */
 
 .my-style {
@@ -123,6 +134,29 @@
 }
 
 
+
+/* Showcase ------------------------------------ */
+
+
+.showcase {
+  background-color: white;
+  z-index: 100;
+  margin: 0 auto;
+  padding: 62px 0 100px;
+  position: relative;
+
+
+}
+
+
+
+
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+
+
 /* Cards ------------------------------------- */
 
 .card-title {
@@ -165,7 +199,97 @@
 }
 
 
+.card {
+  border: none;
+  box-shadow: -5px 5px 15px #7e7e7e;
 
+  
+}
+
+.card:hover {
+  box-shadow: -15px 15px 30px #7e7e7e;
+  transition: ease-in-out 0.3s; 
+}
+
+
+/* Customer Love ----------------------------------- */
+
+.customer-love {
+  height: 10vh;
+
+}
+
+.customer-love-bg {
+  padding: 300px 0;
+  z-index: -10;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.customer-love h3 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 900;
+  font-family: 'Nothing You Could Do', cursive;
+  text-shadow: #ff9234 4px 4px;
+}
+
+
+/* Carousel ---------------------------------------- */
+
+.carousel {
+  box-shadow: -15px 15px 30px #7e7e7e;
+  margin: 600px 0 0;
+  width: 100%;
+
+}
+
+.shadow-bottom {
+  box-shadow: 0 15px 100px #7e7e7e;
+}
+
+.empty{
+  height: 200px;
+  padding-bottom: 200px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Parallax ------------------------------------------ */
+
+
+
+.parallax {
+  /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), */
+  background-image:  url('./img/Img/miche-mix-r7kWS1X24GY-unsplash.jpg');
+  height: 70vh;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.img-caption {
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 30px 0 30px;
+  font-size: 1.5em;
+  width: 500px;
+
+}
+
+
+
+
+/* Footer ------------------------------------------- */
 
 
 footer {

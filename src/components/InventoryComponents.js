@@ -3,14 +3,16 @@ import { Card, CardImg, CardTitle, CardText } from 'reactstrap';
 
 function RenderInventoryItem({ card }) {
     return (
-        <Card>
-            <CardTitle><h3>{card.title}</h3></CardTitle>
-            <CardImg src={card.image} style={{width:200}} />
-            <div className="card-text">
-                <CardText><p>{card.text}</p></CardText>
-                <span style={{ color: "red" }}>{card.price}</span>
-            </div>
-        </Card>
+        <div className="bg-white">
+            <Card className="grow">
+                <CardTitle><h3>{card.title}</h3></CardTitle>
+                <CardImg src={card.image} style={{ width: 200 }} />
+                <div className="card-text">
+                    <CardText><p>{card.text}</p></CardText>
+                    <span style={{ color: "red" }}>{card.price}</span>
+                </div>
+            </Card>
+        </div>
     );
 }
 
@@ -25,9 +27,11 @@ export default function Inventory(props) {
     });
 
     return (
-        <div className="container my-5">
-            <div className="row">
-                {inventory}
+        <div className="section">
+            <div className="container showcase">
+                <div className="row">
+                    {inventory}
+                </div>
             </div>
         </div>
     );
