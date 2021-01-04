@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react';
 import React from 'react';
 import { Card, CardImg, CardTitle, CardText } from 'reactstrap';
 
@@ -36,3 +37,5 @@ export default function Inventory(props) {
         </div>
     );
 }
+
+

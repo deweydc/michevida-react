@@ -5,6 +5,7 @@ import { CARDS } from '../shared/cards';
 import CustomerLove from './CustomerLoveComponent';
 import CarouselSlide from './CarouselComponent';
 import Parallax from './ParallaxComponent';
+import Newsletter from './NewsletterComponent';
 import Footer from './FooterComponent';
 
 
@@ -28,7 +29,8 @@ class Main extends Component {
                     <CarouselSlide />
                 </CustomerLove>
                 <Parallax />
-                
+                <Newsletter />
+
                 <Footer />
             </div>
 

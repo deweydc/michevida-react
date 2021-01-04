@@ -273,7 +273,6 @@
   justify-content: flex-end;
   align-items: center;
 
-
 }
 
 .img-caption {
@@ -285,6 +284,30 @@
   width: 500px;
 
 }
+
+
+/* Newsletter ------------------------------------------- */
+
+.news-letter {
+  background: #fff;
+  margin: 100px;
+
+}
+
+.yellow-bg {
+  background-color: #fcf2c7;
+  padding: 50px;
+  margin: 0px 20px;
+}
+
+.sub-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  z-index: 1000;
+}
+
+
 
 
 
